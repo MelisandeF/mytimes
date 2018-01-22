@@ -1,0 +1,99 @@
+/*Header*/
+
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 1;
+}
+
+header .logo{
+  display: flex;
+  color: mediumaquamarine;
+  width: 300px;
+}
+nav{
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+  margin: auto;
+  align-items: flex-end;
+  text-decoration: underline;
+
+
+}
+
+/*Genral attributes*/
+body{
+  overflow: scroll;
+}
+
+/* Main Contener*/
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+/* Column attributes*/
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+/* Title whit background*/
+
+.photostitle{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#mainstory{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#fallseason{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png") repeat;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#Cats{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+    font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
