@@ -1,3 +1,9 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+
 /*Header*/
 
 header{
@@ -10,12 +16,18 @@ header{
   border-bottom: 1px solid black;
   position: fixed;
   z-index: 1;
+  background-color: white;
+  margin: 0px;
 }
 
 header .logo{
   display: flex;
-  color: mediumaquamarine;
   width: 300px;
+}
+
+h2{
+   color: mediumaquamarine;
+   margin: auto;
 }
 nav{
   display: flex;
@@ -27,16 +39,24 @@ nav{
 nav span{
   display: inline-block;
   padding: 20px 10px;
-  margin: auto;
-  align-items: flex-end;
+  margin: auto 2px;
   text-decoration: underline;
-
+  justify-content: flex-end;
+  align-items: right;
 
 }
 
 /*Genral attributes*/
 body{
   overflow: scroll;
+}
+h1{
+
+}
+p{
+font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 /* Main Contener*/
@@ -55,15 +75,28 @@ body{
 
 /* Column attributes*/
 .column.large {
+  display: flex;
   width: 630px;
 }
 
+.monument{
+  width: 630px;
+  height: 550px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+}
+
 .column.medium {
+  display: flex;
   width: 300px;
+
 }
 
 .column.small {
+  display: flex;
   width: 240px;
+  flex-direction: column;
 }
 
 /* Title whit background*/
@@ -76,6 +109,7 @@ body{
 
 #mainstory{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  height: 300px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
@@ -83,7 +117,16 @@ body{
 }
 
 #fallseason{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png") repeat;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+#cameraman{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -92,7 +135,8 @@ body{
 
 #Cats{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
-    font-family: Georgia;
+  height: 300px;
+  font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
