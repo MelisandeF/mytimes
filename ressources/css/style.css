@@ -111,7 +111,7 @@ color: black;
   color: black;
 }
 
-#mainstory{
+#mainstory h1{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   height: 300px;
   font-family: Georgia;
@@ -120,7 +120,7 @@ color: black;
   color: white;
 }
 
-#fallseason{
+#fallseason h1{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   height: 300px;
   font-family: Georgia;
@@ -128,7 +128,7 @@ color: black;
   font-size: 30px;
   color: white;
 }
-#cameraman{
+#cameraman h1{
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
   height: 300px;
   width: 300px;
@@ -138,7 +138,7 @@ color: black;
   color: white;
 }
 
-#Cats{
+#Cats h1{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
   height: 300px;
   font-family: Georgia;
